@@ -1,0 +1,16 @@
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\bin\Release\Calculator.exe.config
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\bin\Release\Calculator.exe
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\bin\Release\Calculator.pdb
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\Calculator.csproj.AssemblyReference.cache
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\MainWindow.g.cs
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\App.g.cs
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\Calculator_Content.g.cs
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\Calculator_MarkupCompile.cache
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\Calculator_MarkupCompile.lref
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\MainWindow.baml
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\Calculator.g.resources
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\Calculator.Properties.Resources.resources
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\Calculator.csproj.GenerateResource.cache
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\Calculator.exe
+C:\Users\Assynu\RiderProjects\Calculator\Calculator\obj\Release\Calculator.pdb
