@@ -99,42 +99,45 @@ namespace Calculator
             
             if (input[0] != null && input[1] != null && input[2] != null)
             {
-                int input_1 = Int32.Parse(input[0]);
-                int input_2 = Int32.Parse(input[2]);
-                string symbol = input[1];
-                if (symbol == "+")
+                if (input[0] != "0" && input[2] != "0")
                 {
-                    result = (input_1 + input_2);
-                }
-                else if (symbol == "-")
-                {
-                    result = (input_1 - input_2);
-                }
-                else if (symbol == "x")
-                {
-                    result = (input_1 * input_2);
-                }
-                else if (symbol == "/")
-                {
-                    result = (input_1 / input_2);
-                }
-                else
-                {
-                    result = input_1;
-                }
+                    int input_1 = Int32.Parse(input[0]);
+                    int input_2 = Int32.Parse(input[2]);
+                    string symbol = input[1];
+                    if (symbol == "+")
+                    {
+                        result = (input_1 + input_2);
+                    }
+                    else if (symbol == "-")
+                    {
+                        result = (input_1 - input_2);
+                    }
+                    else if (symbol == "x")
+                    {
+                        result = (input_1 * input_2);
+                    }
+                    else if (symbol == "/")
+                    {
+                        result = (input_1 / input_2);
+                    }
+                    else
+                    {
+                        result = input_1;
+                    }
 
-                input[1] = null;
+                    input[1] = null;
                 
-                for (int i = 0; i < input.Length; i++)
-                {
-                    input[i] = null;
-                }
+                    for (int i = 0; i < input.Length; i++)
+                    {
+                        input[i] = null;
+                    }
 
-                input[0] = result.ToString();
+                    input[0] = result.ToString();
 
-                i = 0;
+                    i = 0;
                 
-                resultshow = true;
+                    resultshow = true;
+                }
             }
             else if(input[0] != null)
             {
