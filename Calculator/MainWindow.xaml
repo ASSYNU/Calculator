@@ -394,10 +394,40 @@
                    </Button>
                    
                    <Button Content="0"
-                           Grid.Column="0"
-                           Grid.ColumnSpan="2"
+                           Grid.Column="1"
                            Grid.Row="4"
                            Click="calculator_input">
+                       <Button.Style>
+                           <Style TargetType="Button">
+                               <Setter Property="Background" Value="#F2303030"/>
+                               <Setter Property="TextElement.FontFamily" Value="Fonts/#Roboto"/>
+                               <Setter Property="TextElement.FontSize" Value="30"/>
+                               <Setter Property="TextElement.Foreground" Value="White"/>
+                               <Setter Property="BorderThickness" Value="1.5"/>
+                               <Style.Triggers>
+                                   <Trigger Property="IsMouseOver" Value="True">
+                                       <Setter Property="Background" Value="#F2393939"/>
+                                   </Trigger>
+                               </Style.Triggers>
+                           </Style>
+                           
+                       </Button.Style>
+                       
+                       <Button.Template>
+                           <ControlTemplate TargetType="Button">
+                               <Border Background="{TemplateBinding Background}"
+                                       BorderBrush="#F2404040"
+                                       BorderThickness="1.5">
+                                   <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                               </Border>
+                           </ControlTemplate>
+                       </Button.Template>
+                   </Button>
+
+                    <Button Content="+/-"
+                           Grid.Column="0"
+                           Grid.Row="4"
+                           Click="calculator_negative">
                        <Button.Style>
                            <Style TargetType="Button">
                                <Setter Property="Background" Value="#F2303030"/>
