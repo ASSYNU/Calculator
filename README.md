@@ -8,3 +8,6 @@ Hello, these is my basic calculator inspired by microsoft calculator
 ~~1. Negative numbers~~,
 2. Procents,
 3. History
+
+# Discord
+https://discord.gg/m3dDCMd7kJ
